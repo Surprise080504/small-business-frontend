@@ -1,0 +1,214 @@
+.SSmaindiv {
+    width: 1140px;
+    height: 683px;
+    border-radius: 14px;
+    display: flex;
+    overflow: hidden;
+}
+.SSmainleft {
+    width: 60%;
+    background: linear-gradient(348.44deg, #000000 24.77%, #fefefe 101.26%);
+    padding-left: 70px;
+    padding-top: 104px;
+    color: white;
+}
+.SSmainright {
+    width: 40%;
+    background: linear-gradient(348.44deg, #000000 24.77%, #51b7d6 101.26%);
+    position: relative;
+}
+.SSwelcomeText {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 26px;
+    font-size: 48px;
+    line-height: 58px;
+    width: 287px;
+}
+.SSSubText {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    margin-top: 50px;
+    p {
+        margin: 5px 0 0 0;
+        color: white;
+    }
+    .SSrightIcon {
+        font-weight: bold;
+        font-size: 30px;
+        margin-right: 5px;
+    }
+}
+.SScloseIcon {
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.SSjoinCommunity {
+    width: 515px;
+    height: 591.5px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: 54px;
+    right: 70px;
+    padding: 62px 51px 0 54px;
+    p {
+        font-family: Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: -1px;
+        color: #818181;
+    }
+}
+.SStitle {
+    font-family: SansBold;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    margin-top: 15px;
+    color: #000000;
+}
+p {
+    color: #000;
+    font-family: SansBold;
+    margin: 0;
+}
+.signUpInput {
+    border: 1px solid #dddddd;
+    background-color: transparent;
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 45px;
+    font-size: 17px;
+}
+.SSreferralcode {
+    padding-left: 20px;
+    border: 1px solid #dddddd;
+    background-color: transparent;
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-size: 17px;
+}
+input:focus,
+input:active {
+    outline: none !important;
+    border: 2px solid #77a0d9;
+}
+.SSemailinput {
+    display: flex;
+    align-items: center;
+}
+.SSemailIcon {
+    font-size: 22px;
+    color: #99989e;
+    position: absolute;
+    margin-left: 15px;
+}
+.SSemailPart {
+    margin-top: 15px;
+    p {
+        font-family: inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: 0.1px;
+        color: #393a3e;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+}
+.SSSignBtnOut {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.SSSignBtn {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00a8dd;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+.SSlogin {
+    margin-top: 10px;
+    display: flex;
+    font-family: inter;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    color: #9f9fa1;
+    p {
+        color: #000;
+        margin-left: 10px;
+        font-family: inter;
+        font-style: normal;
+        letter-spacing: 0.1px;
+        font-size: 16px;
+        font-weight: normal;
+    }
+}
+@media screen and (max-width: 1170px) {
+    .SSmaindiv {
+        width: 100% !important;
+    }
+    .SSmainleft {
+        display: none !important;
+    }
+    .SScloseIcon {
+        display: none !important;
+    }
+    .SSmainright {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .SSjoinCommunity {
+        top: 0 !important;
+        right: 0 !important;
+        position: relative !important;
+    }
+}
+@media screen and (max-width: 530px) {
+    .SSjoinCommunity {
+        width: 97% !important;
+    }
+}
+@media screen and (max-width: 465px) {
+    .SSjoinCommunity {
+        height: auto !important;
+        padding-bottom: 30px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        p {
+            text-align: center !important;
+        }
+    }
+    .SStitle {
+        line-height: 35px !important;
+        text-align: center !important;
+    }
+}
+@media screen and (max-width: 445px) {
+}

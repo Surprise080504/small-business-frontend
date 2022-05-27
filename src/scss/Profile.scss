@@ -1,0 +1,376 @@
+.ProReviewContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .ProReviewTitleBack {
+        height: 260px;
+        position: absolute;
+        top: 0;
+        z-index: 2 !important;
+        left: 0;
+        border-radius: 0 0 40px 40px;
+        width: 100%;
+        background: linear-gradient(180deg, #000000 0%, #999999 103.27%);
+    }
+    .ProReviewTitle {
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        width: 100%;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 61px;
+        position: relative;
+        text-align: center;
+        height: 400px;
+        padding-top: 150px;
+        display: flex;
+        justify-content: center;
+    }
+    .ProreviewTitleMain {
+        width: 1200px;
+        display: flex;
+        z-index: 3 !important;
+        justify-content: space-between;
+    }
+}
+.Prophotoposition {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 50%;
+    position: relative;
+}
+.ProReviewTitle_left {
+    display: flex;
+}
+.newpasswordlabel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.showpasscheckbox {
+    margin-right: 5px;
+}
+.resetpassMain {
+    margin-right: 20px;
+    padding: 24px;
+    p {
+        font-family: Sans;
+        margin: 0 0 5px 0;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    .oldpassinput {
+        width: 100%;
+        border: 1px solid #00a8dd;
+        height: 40px;
+        padding: 0 10px;
+        border-radius: 10px;
+    }
+    .oldpassinput:focus,
+    .oldpassinput:active {
+        outline: none;
+    }
+}
+.resetpassSaveBtn {
+    width: 90px;
+    height: 35px;
+    background: #00a8dd;
+    border-radius: 11px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.newpasswordmain {
+    margin-top: 20px;
+}
+.ProphotoRight {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 30px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    .Profilename {
+        font-size: 35px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .profilejob {
+        font-size: 25px;
+        margin-top: 30px;
+        color: #000;
+        display: flex;
+        justify-content: space-between;
+    }
+    .profilelinkedin {
+        font-size: 25px;
+        color: #00a8dd;
+        font-style: italic;
+        margin-top: 10px;
+    }
+}
+.resetpassmodaltitle {
+    font-size: 20px;
+    font-family: Sans;
+    font-weight: bolder;
+}
+.ProresetBtn {
+    width: 170px;
+    height: 50px;
+    background: grey;
+    border-radius: 7px;
+    font-family: Montserrat;
+    font-style: normal;
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+.ProReviewmaindiv {
+    width: 1442px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ProReviewmainTitle {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    color: #061224;
+}
+.ProReviewRefferalOut {
+    display: flex;
+    justify-content: left;
+    width: 1150px;
+}
+.moremain {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border: 2px solid #868686;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-family: Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 38px;
+    margin: 30px 0 100px 0;
+    color: #00a8dd;
+}
+.ProReviewmainsubtitle {
+    width: 1150px;
+    margin: 50px 0 200px 0;
+    .Proabouttitle {
+        display: flex;
+        width: 1150px;
+        justify-content: space-between;
+    }
+    p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 35px;
+        line-height: 100%;
+        color: #00a8dd;
+    }
+    .ProaboutText {
+        font-family: Montserrat;
+        font-style: normal;
+        font-size: 22px;
+        line-height: 25px;
+        width: 1170px;
+        color: grey;
+    }
+}
+.ProReviewmainSharelink {
+    width: 1075px;
+    margin-top: 36px;
+    height: 244px;
+    background: #393939;
+    border-radius: 22px;
+    padding: 42.52px 0 0 80px;
+    p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 37px;
+        letter-spacing: -0.03em;
+        color: #ffffff;
+    }
+    .ProReviewmainSharelink_share {
+        display: flex;
+        input {
+            width: 655px;
+            height: 73px;
+            background: #e2e2e2;
+            border-radius: 10px;
+            border-style: none;
+            padding: 0 15px;
+            font-size: 25px;
+            color: #000;
+        }
+        input:active,
+        input:focus {
+            outline: none;
+            border: 2px solid #00a8dd;
+        }
+    }
+    .ProReviewmainCopyBtn {
+        width: 210px;
+        height: 66.55px;
+        background: #00a8dd;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 50px;
+    }
+}
+.ProReviewCameraIcon {
+    color: #fff;
+    bottom: 5px;
+    cursor: pointer;
+    left: 82px;
+    font-size: 40px;
+    position: absolute;
+}
+.ProReviewRefferal {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: center;
+    color: #00a8dd;
+    margin: 80px 0 20px 0;
+}
+.ProresetBtnout {
+    display: flex;
+    margin-top: 130px;
+}
+.editbtn {
+    cursor: pointer;
+    color: #000;
+    margin-left: 30px;
+    font-size: 25px;
+}
+@media screen and (max-width: 1480px) {
+    .ProReviewmaindiv {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 1230px) {
+    .ProaboutText {
+        width: 98% !important;
+        text-align: center !important;
+    }
+    .ProReviewRefferalOut {
+        width: 98% !important;
+    }
+    .Proabouttitle {
+        margin-left: 10px !important;
+        width: 97% !important;
+    }
+    .ProReviewTitleBack {
+        height: 260px !important;
+    }
+    .ProReviewTitle {
+        height: 550px !important;
+    }
+    .ProreviewTitleMain {
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: unset !important;
+    }
+    .ProReviewTitle_left {
+        margin-top: 20px !important;
+    }
+    .ProresetBtnout {
+        margin: 30px !important;
+    }
+    .ProReviewmainsubtitle {
+        margin: 0 0 150px 0 !important;
+        width: 98% !important;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .ProReviewmainSharelink {
+        width: 98% !important;
+        text-align: center !important;
+        height: auto !important;
+        padding-left: 0 !important ;
+    }
+    .ProReviewmainSharelink_share {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .ProReviewmainCopyBtn {
+        margin: 20px 0 !important;
+    }
+}
+@media screen and (max-width: 860px) {
+    .ProReviewTitle_left {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .ProphotoRight {
+        text-align: center !important;
+        margin-top: 20px;
+        margin-left: 0 !important;
+    }
+    .ProReviewTitleBack {
+        height: 250px !important;
+    }
+    .Profilename {
+        color: #000 !important;
+    }
+    .ProReviewmainsubtitle {
+        p {
+            text-align: center !important;
+        }
+    }
+    .ProReviewmainTitle {
+        font-size: 40px !important;
+    }
+    .ProReviewTitle {
+        height: 750px !important;
+        font-size: 40px !important;
+    }
+    .ProReviewmainSharelink_share {
+        input {
+            width: 80% !important;
+        }
+    }
+    .ProReviewRefferal {
+        font-size: 35px !important;
+        line-height: 40px !important;
+    }
+}

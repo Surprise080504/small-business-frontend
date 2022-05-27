@@ -1,0 +1,183 @@
+.CComHeader {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+    height: 100px;
+    position: fixed;
+    z-index: 10 !important;
+    border-bottom: 1px solid grey;
+    left: 0;
+    top: 0;
+}
+
+.logomargin {
+    margin-left: 70px !important;
+}
+
+.CheadermatchBtn, .CheadermatchBtnRes {
+    width: 140px;
+    height: 45px;
+    font-family: Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    cursor: pointer;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #00A8DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+
+.CmainHeader {
+    width: 1311px;
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.CResItems {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.CHeaderlogo {
+    display: flex;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: #fff;
+}
+
+.CHeaderlogo>p {
+    margin: 0;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.Chomelogo {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.CmainHeaderLeft {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+
+.CheaderItemRes {
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 20px;
+}
+
+.CheaderItem {
+    margin-left: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.CHeaderRightItem {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.CmainHeaderRight {
+    display: flex;
+    align-items: center;
+}
+
+.CResHeaderRightItem {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.CResHeaderRightItemBar {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+.CHeaderRightItemCoin, .CResHeaderRightItemCoin {
+    color: #fff;
+    font-size: 35px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.CHeaderRightItemUser, .CResHeaderRightItemUser {
+    color: #fff;
+    font-size: 27px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.CResPanel {
+    z-index: 10;
+    position: absolute;
+    top: 100px;
+    background-color: #272727;
+    width: 100%;
+}
+
+@media screen and (max-width:1315px) {
+    .CmainHeader {
+        padding: 0 30px 0 20px !important;
+    }
+}
+
+@media screen and (min-width:970px) {
+    .CResPanel {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:970px) {
+    .ResMatchOut {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .CheadermatchBtn {
+        display: none !important;
+    }
+
+    .CheadermatchBtnRes {
+        margin-right: 0 !important;
+        margin-bottom: 30px !important;
+    }
+
+    .CResHeaderRightItemBar {
+        display: flex !important;
+    }
+
+    .CResHeaderRightItemUser, .CResHeaderRightItemCoin {
+        margin: 0 !important;
+    }
+
+    .CResHeaderRightItem {
+        margin: 0 30px !important;
+    }
+
+    .CHeaderRightItem, .CheaderItem, .CHeaderRightItemCoin, .CHeaderRightItemUser {
+        display: none !important;
+    }
+}

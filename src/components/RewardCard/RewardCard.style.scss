@@ -1,0 +1,103 @@
+.RewardsCard {
+    margin-bottom: 25px;
+}
+.RewardsCard_date {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    color: #a0a0a0;
+}
+.RewardsCard_Row {
+    display: flex;
+    align-items: center;
+}
+.RewardsCard_Row_left {
+    width: 428px;
+    height: 141px;
+    border: 1.5px solid #1aa9e8;
+    box-sizing: border-box;
+    border-radius: 10px;
+    div {
+        font-weight: bolder !important;
+    }
+}
+.RewardsCard_Row_right {
+    width: 385px;
+    height: 141px;
+    border: 1.5px solid #1aa9e8;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.RewardsCard_Row_right_mark {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    p {
+        font-family: Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        margin: 0;
+        margin-right: 10px;
+        line-height: 22px;
+        color: #00a8dd;
+    }
+}
+.RewardsCard_Row_left {
+    padding: 21px 0 0 37px;
+    p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        margin: 0;
+        line-height: 37px;
+        color: #000000;
+    }
+    div {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 33px;
+        color: #0057ff;
+        margin-top: 20px;
+    }
+}
+.RewardsCard_Row_right {
+    padding: 30px 27px 0 41px;
+    font-family: Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 35px;
+    color: #000000;
+}
+@media screen and (max-width: 1370px) {
+    .RewardsCard {
+        width: 98% !important;
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .RewardsCard_Row_right_mark {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .RewardsCard_Row {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .RewardsCard_Row_right,
+    .RewardsCard_Row_left {
+        width: 98% !important;
+        height: auto !important;
+        padding-bottom: 30px !important;
+    }
+}

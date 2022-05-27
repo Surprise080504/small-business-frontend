@@ -1,0 +1,265 @@
+.Cmaindiv {
+    width: 1140px;
+    height: 683px;
+    border-radius: 14px;
+    display: flex;
+    background: linear-gradient(180deg, #000000 0%, #b1b1b1 100%);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.BackBtnOut {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 34px;
+    left: 42px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid#fff;
+    .BackBtn {
+        font-size: 25px;
+        font-weight: bold;
+        color: #fff !important;
+    }
+}
+.NextBtnOut {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    right: 33px;
+    top: 34px;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #fff;
+    .NextBtn {
+        color: #fff;
+        font-size: 25px;
+    }
+}
+.Ctitle {
+    color: #fff;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 53px;
+    margin-bottom: 70px !important;
+}
+.photo {
+    width: 267px;
+    height: 273px;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.infordetail {
+    display: flex;
+    align-items: center;
+}
+.group {
+    p {
+        color: #fff;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 34px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    p > span {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ffffff;
+        margin-left: 20px;
+    }
+    .selfinput {
+        background-color: #fff;
+        width: 647px;
+        height: 44px;
+        border-style: none;
+        border-radius: 10px;
+        border: 1.5px solid #00a8dd;
+        padding-left: 10px;
+    }
+    .selfinput:focus,
+    .selfinput:active {
+        outline: none;
+    }
+}
+.detailRight {
+    margin-left: 56px;
+}
+.grouptitle {
+    margin-top: 32px;
+    p {
+        color: #fff;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 34px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    p > span {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ffffff;
+        margin-left: 20px;
+    }
+    .selfinput {
+        background-color: #fff;
+        width: 647px;
+        height: 44px;
+        border-radius: 10px;
+        border: 1.5px solid #00a8dd;
+        padding-left: 10px;
+    }
+    .selfinput:focus,
+    .selfinput:active {
+        outline: none;
+    }
+}
+
+.grouplinkedin {
+    margin-top: 32px;
+    p {
+        color: #fff;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 34px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .linkedinUrl {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            margin-top: 10px;
+            color: #ffffff;
+        }
+        .linkedininput {
+            background: #ffffff;
+            border-radius: 10px;
+            color: #000;
+            width: 359px;
+            padding: 0 10px;
+            border: 1.5px solid #00a8dd;
+            height: 44px;
+        }
+        .linkedininput:focus,
+        .linkedininput:active {
+            outline: none;
+        }
+    }
+}
+.cameraIcon {
+    color: #000;
+    font-size: 50px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 110px;
+}
+@media screen and (max-width: 1170px) {
+    .Croot {
+        align-items: unset !important;
+    }
+    .Cmaindiv {
+        justify-content: unset !important;
+        height: 900px !important;
+        width: 100% !important;
+        overflow: unset !important;
+    }
+    .infordetail {
+        flex-direction: column !important;
+    }
+    .detailRight {
+        margin-left: 0 !important;
+    }
+    .BackBtnOut,
+    .NextBtnOut {
+        top: 50px !important;
+    }
+    .Ctitle {
+        margin-top: 120px !important;
+    }
+}
+@media screen and (max-width: 780px) {
+    .Ctitle {
+        font-size: 30px !important;
+        width: 90% !important;
+        text-align: center !important;
+    }
+    .Cmaindiv {
+        height: 980px !important;
+    }
+}
+@media screen and (max-width: 700px) {
+    .detailRight {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    .selfinput {
+        width: 95% !important;
+    }
+    .linkedininput {
+        width: 30% !important;
+    }
+    .group {
+        margin-top: 20px;
+        text-align: center !important;
+        p {
+            margin-left: 10px;
+        }
+    }
+    .grouptitle {
+        margin-top: 20px !important;
+        text-align: center !important;
+        p {
+            margin-left: 10px !important;
+            span {
+                display: none !important;
+            }
+        }
+    }
+    .grouplinkedin {
+        margin-top: 20px !important;
+        text-align: center !important;
+        margin-left: 10px;
+        width: 95% !important;
+        .linkedininput {
+            margin-left: 0 !important;
+        }
+    }
+}

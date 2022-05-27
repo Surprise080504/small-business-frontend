@@ -1,0 +1,50 @@
+.Comingsoonout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.comingsoon {
+    width: 1400px;
+    height: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    background-image: url(../assets/images/soon.png);
+    .comingtitle {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 80px;
+        line-height: 77px;
+        text-align: center;
+        color: #fff;
+    }
+    p {
+        font-style: italic;
+        font-weight: 700;
+        font-size: 50px;
+        width: 700px;
+        margin-top: 70px;
+        line-height: 50px;
+        text-align: center;
+        color: #fff;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .Comingsoonout {
+        width: 100% !important;
+    }
+    .comingsoon {
+        width: 95% !important;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .comingsoon > p {
+        width: 95% !important;
+    }
+}

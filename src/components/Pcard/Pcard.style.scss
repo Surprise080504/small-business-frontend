@@ -1,0 +1,46 @@
+.Pcard {
+    width: 306px;
+    height: 303px;
+    border-radius: 10px;
+    border: 1px solid #00a8dd;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 2.6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.CCardlogo {
+    margin-top: 30px;
+}
+.ccardtitle {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 33px;
+    color: #1f2938;
+}
+.Ccardsubtitle {
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 5px;
+    color: #1aa9e8;
+}
+.Ccardactnum {
+    font-family: Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #f1abab;
+}
+@media screen and (max-width: 670px) {
+    .Pcard {
+        margin-top: 20px !important;
+    }
+}

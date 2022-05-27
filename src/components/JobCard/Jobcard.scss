@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300display=swap");
+
+.JobcardContainer {
+    height: 180px;
+    width: 642px;
+    background: #ffffff;
+    border: 1px solid #00a8dd;
+    box-shadow: rgba(0, 0, 0, 0.15) 10.4px 10.4px 5.2px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 26px 32px 11px 23px;
+    .JobcardHeader {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .Title {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .Main {
+                margin-left: 14px;
+                display: flex;
+                flex-direction: column;
+                .MainTitle {
+                    font-family: "Montserrat", sans-serif;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #37404e;
+                }
+                .detail {
+                    font-family: "Open Sans", sans-serif;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 16px;
+                    color: #a0abb8;
+                    display: flex;
+                    align-items: center;
+                    .youdotcom {
+                        color: #9777fa;
+                        width: 40px;
+                        font-weight: bold;
+                    }
+                    .pos {
+                        margin-left: 15px;
+                        display: inline-block;
+                    }
+                    .job {
+                        margin-left: 15px;
+                        display: inline-block;
+                    }
+                    .clock_icon {
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+        .Price {
+            display: flex;
+            flex-direction: row;
+            .Mainprice {
+                font-family: " Open Sans", sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 22px;
+                line-height: 150%;
+                color: #000000;
+            }
+            .Subprice {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-left: 10px;
+                .value {
+                    margin-right: 10px;
+                    font-family: "Montserrat", sans-serif;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 20px;
+                    text-align: right;
+                    color: #5192ff;
+                }
+            }
+        }
+    }
+    .JobcardBody {
+        margin-top: 26px;
+        max-width: 571px;
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 22px;
+        color: #727272;
+    }
+    .delete_icon {
+        font-size: 31px;
+        margin-top: 25px;
+        display: inline-block;
+        float: right;
+    }
+}
+@media screen and (max-width: 1430px) {
+    .JobcardContainer {
+        margin-bottom: 30px !important;
+    }
+}
+@media screen and (max-width: 660px) {
+    .JobcardContainer {
+        width: 97% !important;
+        height: auto !important;
+        padding-bottom: 20px !important;
+    }
+}

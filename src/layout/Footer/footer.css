@@ -1,0 +1,81 @@
+.ComFooter {
+    background-color: #121212;
+    color: #fff;
+    width: 100%;
+    padding: 80px 0 30px 0;
+}
+
+.ComsocialIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding: 30px 0 20px 0;
+    margin: 0 50px 0 50px;
+}
+
+.ComsocialItem {
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.Comfootertitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.ComsocialIcon_left {
+    cursor: pointer;
+}
+
+.ComjoindiscordBtn {
+    border: 1px solid #fff;
+    width: 550px;
+    height: 60px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    cursor: pointer;
+    background-color: #00A8DD;
+    font-family: Roboto;
+}
+
+.ComjoindiscordBtnOut {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 40px 0;
+}
+
+.ComjoinBtnIcon {
+    margin-left: 20px;
+    font-size: 35px;
+    color: #000;
+}
+
+@media screen and (max-width:780px) {
+    .ComjoindiscordBtn {
+        width: 90% !important;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .ComjoindiscordBtn {
+        width: 90% !important;
+    }
+
+    .ComsocialIcons {
+        flex-direction: column !important;
+    }
+
+    .ComsocialIcon_right {
+        margin-top: 20px !important;
+    }
+}

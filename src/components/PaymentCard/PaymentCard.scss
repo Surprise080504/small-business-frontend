@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300display=swap");
+
+.RecentItemContainer {
+    position: relative;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 40px 0;
+    grid-gap: 20px;
+
+    .tooltip_date {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        margin-top: -20px;
+        line-height: 30px;
+        color: #a0a0a0;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .UserLink {
+        width: 428px;
+        height: 141px;
+        border: 1px solid rgba(151, 119, 250, 0.5);
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 21px 53px 30px 37px;
+        display: flex;
+        flex-direction: column;
+        .UserName {
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 37px;
+            color: #000000;
+        }
+        .Linkdin {
+            margin-top: 15px;
+            font-weight: 600;
+            font-size: 27px;
+            line-height: 33px;
+            .LinkedinText {
+                color: #0057ff;
+            }
+        }
+    }
+}
+@media screen and (max-width: 440px) {
+    .UserLink {
+        width: 98% !important;
+        padding: 21px 0 0 0 !important;
+        // padding-top: 21px 0 0 0 !important;
+    }
+}

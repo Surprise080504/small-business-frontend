@@ -1,0 +1,204 @@
+.maindiv {
+    width: 1140px;
+    height: 683px;
+    border-radius: 14px;
+    display: flex;
+    overflow: hidden;
+}
+.mainleft {
+    width: 60%;
+    background: linear-gradient(348.44deg, #000000 24.77%, #fefefe 101.26%);
+    padding-left: 70px;
+    padding-top: 104px;
+    color: white;
+}
+.mainright {
+    width: 40%;
+    background: linear-gradient(348.44deg, #000000 24.77%, #51b7d6 101.26%);
+    position: relative;
+}
+.welcomeText {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 26px;
+    font-size: 48px;
+    line-height: 58px;
+    width: 287px;
+}
+.SubText {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    margin-top: 50px;
+    p {
+        margin: 5px 0 0 0;
+        color: white;
+    }
+    .rightIcon {
+        font-weight: bold;
+        font-size: 30px;
+        margin-right: 5px;
+    }
+}
+.closeIcon {
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.joinCommunity {
+    width: 515px;
+    height: 591.5px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: 54px;
+    right: 70px;
+    padding: 62px 51px 0 54px;
+    p {
+        font-family: Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: -1px;
+        color: #818181;
+    }
+}
+.title {
+    font-family: SansBold;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    margin-top: 15px;
+    color: #000000;
+}
+p {
+    color: #000;
+    font-family: SansBold;
+    margin: 0;
+}
+.firstpageInput {
+    border: 1px solid #dddddd;
+    background-color: transparent;
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 45px;
+    font-size: 17px;
+}
+.firstpageInput:focus,
+.firstpageInput:active {
+    outline: none !important;
+    border: 2px solid #77a0d9;
+}
+.emailinput {
+    display: flex;
+    align-items: center;
+}
+.emailIcon {
+    font-size: 22px;
+    color: #99989e;
+    position: absolute;
+    margin-left: 15px;
+}
+.emailPart {
+    margin-top: 30px;
+    p {
+        font-family: inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: 0.1px;
+        color: #393a3e;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+}
+.SignBtnOut {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.SignBtn {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #00a8dd;
+    border-radius: 30px;
+    margin-top: 60px;
+    font-size: 20px;
+    color: white;
+}
+.login {
+    margin-top: 20px;
+    display: flex;
+    font-family: inter;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    color: #9f9fa1;
+    p {
+        color: #000;
+        margin-left: 10px;
+        font-family: inter;
+        font-style: normal;
+        letter-spacing: 0.1px;
+        font-size: 16px;
+        font-weight: normal;
+    }
+}
+@media screen and (max-width: 1180px) {
+    .maindiv {
+        width: 100% !important;
+    }
+    .mainleft {
+        display: none !important;
+    }
+    .closeIcon {
+        display: none !important;
+    }
+    .mainright {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .joinCommunity {
+        top: 0 !important;
+        right: 0 !important;
+        position: relative !important;
+    }
+}
+@media screen and (max-width: 530px) {
+    .joinCommunity {
+        width: 97% !important;
+    }
+}
+@media screen and (max-width: 465px) {
+    .joinCommunity {
+        height: auto !important;
+        padding-bottom: 30px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        p {
+            text-align: center !important;
+        }
+    }
+    .title {
+        line-height: 35px !important;
+        text-align: center !important;
+    }
+}
+@media screen and (max-width: 445px) {
+}

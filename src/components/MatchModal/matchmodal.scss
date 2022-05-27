@@ -1,0 +1,77 @@
+.antd_Modal {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center;
+    padding: 24px;
+}
+.accessModalTitle {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 50px;
+    line-height: 71px;
+    text-align: center;
+    color: #00a8dd;
+}
+.accessModalsubtitle {
+    font-family: Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    margin: 30px 0 20px 0;
+    width: 950px;
+}
+.antdModalTextarea:focus,
+.antdModalTextarea:active {
+    outline: none !important;
+    border: 1px solid #00a8dd;
+}
+.ChatBtnOut {
+    width: 950px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: flex-end;
+}
+.ChatBtn {
+    width: 120px;
+    height: 40px;
+    background: #00a8dd;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.antdModalTextarea {
+    width: 950px;
+    height: 290px;
+    border: 1px solid #f3f3f3;
+    border-radius: 10px;
+    padding: 10px;
+}
+@media screen and (max-width: 1020px) {
+    .antdModalTextarea,
+    .accessModalsubtitle,
+    .ChatBtnOut {
+        width: 98% !important;
+    }
+}
+@media screen and (max-width: 840px) {
+    .accessModalTitle {
+        width: 98% !important;
+        line-height: 40px !important;
+    }
+    .accessModalsubtitle {
+        text-align: center !important;
+    }
+}

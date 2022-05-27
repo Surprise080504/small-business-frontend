@@ -1,0 +1,147 @@
+.ACmaindiv {
+    width: 1140px;
+    height: 683px;
+    border-radius: 14px;
+    display: flex;
+    background: linear-gradient(180deg, #000000 0%, #b1b1b1 100%);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ABackBtnOut {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 34px;
+    left: 42px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid#fff;
+    .ABackBtn {
+        font-size: 25px;
+        font-weight: bold;
+        color: #fff !important;
+    }
+}
+.AANextBtnOut {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 34px;
+    right: 42px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid#fff;
+    .AANextBtn {
+        font-size: 25px;
+        font-weight: bold;
+        color: #fff !important;
+    }
+}
+.ANextBtnOut {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.ANextBtn {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 30px;
+    display: flex;
+    background-color: #00a8dd;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+.ACtitle {
+    color: #fff;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 53px;
+    margin-bottom: 48px;
+}
+.Adetail {
+    .textarea {
+        width: 930px;
+        min-width: 930px;
+        height: 240px;
+        min-height: 240px;
+        padding: 10px;
+        border-radius: 14px;
+    }
+    .textarea:focus,
+    .textarea:active {
+        outline: none;
+    }
+}
+.AdetailTitle {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #ffffff;
+}
+.AdetailContent {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    width: 881px;
+    color: #ffffff;
+    margin: 20px 0 23px 0;
+}
+@media screen and (max-width: 1170px) {
+    .ACmaindiv {
+        height: auto !important;
+        width: 100% !important;
+    }
+    .AdetailContent {
+        width: 97% !important;
+        text-align: center !important;
+    }
+    .ACtitle {
+        margin-top: 100px;
+    }
+    .textarea {
+        width: 97% !important;
+        min-width: auto !important;
+    }
+    .Adetail {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .ANextBtnOut {
+        width: 97% !important;
+        margin-bottom: 30px !important;
+    }
+}
+@media screen and (max-width: 400px) {
+    .ACtitle {
+        font-size: 30px !important;
+    }
+    .AdetailTitle {
+        font-size: 25px !important;
+    }
+}

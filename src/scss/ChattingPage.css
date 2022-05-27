@@ -1,0 +1,293 @@
+.ChatOut {
+    width: 100vw;
+    margin-top: 100px;
+    height: calc(100vh - 100px);
+    background-color: #f1f2f4;
+    padding: 10px;
+}
+
+.topPart {
+    width: 100%;
+    display: flex;
+
+}
+
+.Userlist {
+    width: 337px;
+    border: 1px solid #e0e0e0;
+    height: calc(100vh - 120px);
+    background-color: #fff;
+}
+
+.mainwindow {
+    width: calc(100vw - 357px);
+    height: calc(100vh - 120px);
+    border-top: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: white;
+    position: relative;
+}
+
+.topPartLeft {
+    height: 70px;
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.usersearch {
+    position: relative;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 5px;
+}
+
+.usersearch>input {
+    margin-left: 12px;
+    border: 1px solid #efefef;
+    width: 310px;
+    height: 45px;
+    padding-left: 40px;
+}
+
+.usersearch>input:focus, .usersearch>input:active {
+    outline: none !important;
+}
+
+.usersearchIcon {
+    color: #b1b1b1;
+    z-index: 2;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 20px;
+}
+
+.mainuserlist {
+    margin-top: 20px;
+    height: calc(100vh - 262px);
+    overflow-y: scroll;
+}
+
+.displayname {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Sans;
+    color: #000;
+    margin: 10px 0 0 20px;
+}
+
+.UserNamePart {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.historyinput>input {
+    height: 100%;
+    width: 216px;
+    border-style: none;
+    margin-left: 32px;
+}
+
+.historyinput>input:focus, .historyinput>input:active {
+    outline: none;
+}
+
+.historyinput {
+    position: relative;
+    border: 1px solid #efefef;
+    width: 250px;
+    height: 40px;
+}
+
+.chathistorySearch {
+    position: absolute;
+    color: #b1bbb1;
+    font-size: 25px;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.chattitle {
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+    height: 60px;
+    padding: 0 0 0 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #72AAF4;
+}
+
+.chattinginput {
+    position: absolute;
+    border-top: 1px solid #e0e0e0;
+    width: 100%;
+    bottom: 0;
+    height: 70px;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputpart {
+    position: relative;
+    border: 1px solid #e0e0e0;
+    width: 85%;
+    background-color: white;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.sendbutton {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    color: #a1a1a1;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-left: 15px;
+}
+
+.inputchat {
+    height: 100%;
+    padding-left: 10px;
+    border-style: none;
+    width: calc(100% - 70px);
+}
+
+.inputchat:focus, .inputchat:active {
+    outline: none;
+}
+
+.inputsettingicon {
+    font-size: 25px;
+    color: #a0a0a0;
+    position: absolute;
+    right: 37px;
+    cursor: pointer;
+}
+
+.inputemojiIcon {
+    font-size: 22px;
+    color: #a0a0a0;
+    right: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.attachfileIcon {
+    font-size: 25px;
+    color: #a0a0a0;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+.Chatman {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.chatphoto {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    margin-right: 15px;
+}
+
+.chatname {
+    color: #000;
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: Montserrat;
+}
+
+.chatjob {
+    color: #000;
+    font-size: 17px;
+    line-height: 15px;
+    font-family: Montserrat;
+}
+
+.chathistory {
+    color: #9c9b9a;
+    font-size: 15px;
+    font-family: Montserrat;
+}
+
+.displayrealtitle {
+    width: 342px;
+    height: 51px;
+    background: #00A8DD;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+
+
+@media screen and (max-width:1020px) {
+    .historyinput {
+        margin-right: 5px !important;
+    }
+}
+
+@media screen and (max-width:940px) {
+    .UserNamePart {
+        flex-direction: column !important;
+        height: auto !important;
+        padding-bottom: 20px !important;
+        align-items: center !important;
+    }
+
+    .chattitle {
+        display: flex;
+        justify-content: center !important;
+        padding: 0 !important;
+    }
+
+    .historyinput {
+        margin: 0 !important;
+    }
+
+    .displayname {
+        margin: 10px !important;
+    }
+
+}
+
+@media screen and (max-width:860px) {
+    .mainwindow {
+        display: none !important;
+    }
+
+    .Userlist {
+        width: 100% !important;
+    }
+}

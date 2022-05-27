@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Inter;
+    src: url('./assets/Fonts/inter/static/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: Sans;
+    src: url('./assets/Fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: SansBold;
+    src: url('./assets/Fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('./assets/Fonts/Montserrat/static/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('./assets/Fonts/Roboto/Roboto-Regular.ttf');
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.ant-modal-content {
+    border-radius: 20px !important;
+}
+
+.ant-modal-header {
+    border-radius: 20px 20px 0 0 !important;
+}
+
+.ant-modal-wrap {
+    background: #6B6B6BCC;
+}
+
+.ant-modal-body {
+    padding: 0 !important;
+}

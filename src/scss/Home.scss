@@ -1,0 +1,340 @@
+.Hroot {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+.Hmaindiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.ant-modal-body {
+    padding: 0 !important;
+}
+.ant-modal-close {
+    display: none !important;
+}
+.lazy {
+    width: 100%;
+    height: 100%;
+}
+.each-slide {
+    height: 500px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px 0 20px;
+    width: 100%;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    left: 0;
+    font-family: SansBold;
+    border-bottom: 3px solid #616161;
+    color: #fff;
+}
+.slide-container {
+    margin: 50px 0;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+.headerleft {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    margin-left: 30px;
+    p {
+        margin: 0;
+        color: white;
+    }
+    .homelogo {
+        margin-right: 10px;
+        cursor: pointer;
+    }
+}
+.headerright {
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    span {
+        cursor: pointer;
+    }
+    .AccessBtn {
+        width: 150px;
+        display: flex;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 18px;
+        margin-left: 30px;
+        background-color: #00a8dd;
+        height: 50px;
+        border-radius: 10px;
+        color: #fff;
+    }
+}
+.hometitle {
+    // font-family: Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 150%;
+    text-align: center;
+    width: 600px;
+    color: #ffffff;
+}
+.topDivOut {
+    background: linear-gradient(180deg, #000000 0%, #b1b1b1 100%);
+    width: 100%;
+    height: 100vh;
+    padding: 250px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homesubtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: center;
+    width: 1050px;
+    color: #ffffff;
+    margin-top: 70px;
+}
+.joinText {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    margin-top: 100px;
+    color: #ffffff;
+    // display: flex;
+    // align-items: center;
+    span {
+        font-weight: bolder;
+    }
+}
+.each-slide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+.joinBtn {
+    width: 200px;
+    height: 60px;
+    background: #00a8dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 22px;
+    line-height: 150%;
+    color: #fff;
+    margin-top: 30px;
+}
+.bottomDivOut {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bottomtitle_right {
+    margin-right: 20px;
+}
+.bottomDiv {
+    width: 1480px;
+}
+.bottomtitle_right_slide_icon {
+    cursor: pointer;
+}
+.bottomtitle {
+    font-family: Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    color: #000000;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.verkada {
+    height: 500px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    P {
+        color: #041725;
+        font-size: 150px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+}
+.roadmap {
+    margin-bottom: 110px;
+    p {
+        font-family: Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 150%;
+        color: #000000;
+    }
+}
+.roadmapNum {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.roadmapNumItem {
+    display: flex;
+    align-items: center;
+}
+.roadmapText {
+    margin-left: 30px;
+    p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 22px;
+        line-height: 116%;
+        width: 200px;
+        margin: 0;
+        color: #000000;
+    }
+    .roadmapsub {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 155%;
+        width: 240px;
+        color: #000000;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .roadmap {
+        padding: 0 20px !important;
+    }
+    .bottomtitle {
+        margin-left: 20px !important;
+    }
+    .slide-container {
+        width: 100vw !important;
+    }
+    .lazy {
+        width: 70% !important;
+    }
+}
+@media screen and (max-width: 1360px) {
+    .roadmap {
+        p {
+            margin-left: 20px !important;
+        }
+    }
+    .roadmapNum {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .roadmapNumItem {
+        margin: 20px 0 !important;
+    }
+    .roadmapText {
+        .roadmapsub {
+            margin-left: 20px !important;
+        }
+    }
+}
+@media screen and (max-width: 1040px) {
+    .homesubtitle {
+        width: 95% !important;
+    }
+    .verkada {
+        img {
+            width: 100px !important;
+        }
+        p {
+            font-size: 90px !important;
+            margin-bottom: 10px !important;
+            margin-left: 20px !important;
+        }
+    }
+}
+@media screen and (max-width: 780px) {
+    .headerleft > p {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 600px) {
+    .hometitle {
+        width: 95% !important;
+        font-size: 35px !important;
+    }
+    .homesubtitle {
+        font-size: 25px !important;
+        margin-top: 30px !important;
+    }
+    .joinText {
+        font-size: 20px !important;
+        margin-top: 50px !important;
+    }
+    .bottomtitle {
+        font-size: 20px !important;
+        text-align: center !important;
+    }
+    .verkada {
+        img {
+            width: 70px !important;
+        }
+        p {
+            font-size: 50px !important;
+            margin-bottom: 0 !important;
+            margin-left: 20px !important;
+        }
+    }
+}
+@media screen and (max-width: 500px) {
+    .roadmapText {
+        margin-left: 0 !important;
+        p {
+            font-size: 20px !important;
+            width: 150px !important;
+        }
+        .roadmapsub {
+            font-size: 15px !important;
+            margin-left: 20px !important;
+            margin-top: 5px !important;
+        }
+    }
+}
+@media screen and (max-width: 440px) {
+    .AccessBtn {
+        display: none !important;
+    }
+    .roadmapsub {
+        width: 95% !important;
+    }
+    .verkada {
+        flex-direction: column !important;
+    }
+}

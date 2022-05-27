@@ -1,0 +1,114 @@
+.ExpPartnerOut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ExpToptitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #000000 0%, #999999 103.27%);
+    height: 250px;
+    width: 100vw;
+    border-radius: 0 0 30px 30px;
+    color: #fff;
+    padding-top: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 61px;
+    text-align: center;
+}
+.Expmaindiv {
+    width: 1310px;
+}
+.ExpGroupTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 41px 0 50px 0;
+}
+.ExpGroupTitleLeft {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 54px;
+    color: #061224;
+}
+.ExpGroupTitleRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input {
+        border: 1px solid #eaeaea;
+        height: 50px;
+        width: 320px;
+        border-radius: 10px;
+        padding: 0 10px;
+        font-size: 20px;
+        color: #000;
+        transition: all 0.3s;
+        border: 2px solid #00a8dd;
+    }
+    input:focus,
+    input:active {
+        outline: none !important;
+    }
+}
+.ExpsearchIcon {
+    font-size: 30px;
+    color: #bfc0c1;
+    margin-left: -35px;
+}
+.ExpCardRow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.ExpcardTwo {
+    display: flex;
+    justify-content: space-around;
+    width: 655px;
+}
+.ExpGroups {
+    margin-bottom: 100px;
+}
+@media screen and (max-width: 1350px) {
+    .ExpCardRow {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .ExpcardTwo {
+        margin-top: 20px;
+    }
+    .Expmaindiv {
+        width: 95% !important;
+    }
+}
+@media screen and (max-width: 870px) {
+    .ExpGroupTitle {
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+    .ExpGroupTitleRight {
+        margin-top: 10px !important;
+    }
+}
+@media screen and (max-width: 670px) {
+    .ExpcardTwo {
+        flex-direction: column !important;
+        align-items: center !important;
+        margin-top: 0 !important;
+        width: 95% !important;
+    }
+    .ExpCardRow {
+        margin-top: 0 !important;
+    }
+}
+@media screen and (max-width: 600px) {
+    .ExpToptitle {
+        font-size: 30px !important;
+    }
+}

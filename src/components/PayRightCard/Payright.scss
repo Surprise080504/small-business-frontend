@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300display=swap");
+
+.PayJobcardContainer {
+    height: 170px;
+    width: 642px;
+    background: #ffffff;
+    border: 1px solid rgba(151, 119, 250, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0px 8.76px 26.28px rgba(31, 31, 51, 0.06);
+    border-radius: 10px;
+    padding: 26px 32px 11px 23px;
+    .PayJobcardHeader {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .PayTitle {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .PayMain {
+                margin-left: 14px;
+                display: flex;
+                flex-direction: column;
+                .PayMainTitle {
+                    font-family: "Montserrat", sans-serif;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #37404e;
+                }
+                .Paydetail {
+                    font-family: "Open Sans", sans-serif;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 16px;
+                    color: #a0abb8;
+                    display: flex;
+                    align-items: center;
+                    .Payyoudotcom {
+                        color: #9777fa;
+                        width: 40px;
+                        font-weight: bold;
+                    }
+                    .Paypos {
+                        margin-left: 15px;
+                        display: inline-block;
+                    }
+                    .Payjob {
+                        margin-left: 15px;
+                        display: inline-block;
+                    }
+                    .Payclock_icon {
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+        .PayPrice {
+            display: flex;
+            flex-direction: row;
+            .PayMainprice {
+                font-family: " Open Sans", sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 22px;
+                line-height: 150%;
+                color: #000000;
+            }
+            .PaySubprice {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-left: 10px;
+                .Payvalue {
+                    margin-right: 10px;
+                    font-family: "Montserrat", sans-serif;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 20px;
+                    text-align: right;
+                    color: #5192ff;
+                }
+            }
+        }
+    }
+    .PayJobcardBody {
+        margin-top: 26px;
+        max-width: 571px;
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 22px;
+        color: #727272;
+    }
+}
+@media screen and (max-width: 1430px) {
+    .PayJobcardContainer {
+        margin-bottom: 30px !important;
+        height: auto !important;
+        padding-bottom: 20px !important;
+    }
+}
+@media screen and (max-width: 660px) {
+    .PayJobcardContainer {
+        width: 97% !important;
+    }
+}
+@media screen and (max-width: 570px) {
+    .PayPrice {
+        display: none !important;
+    }
+}
